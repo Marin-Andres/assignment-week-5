@@ -9,5 +9,9 @@ public partial class Store
 
     public string Name { get; set; } = null!;
 
+    public string? Location { get; set; }
+
+    public string? Continent { get; set; }
+
     public virtual ICollection<Sale> Sales { get; set; } = new List<Sale>();
 }

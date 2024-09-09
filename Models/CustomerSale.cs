@@ -11,6 +11,8 @@ public partial class CustomerSale
 
     public string? LastName { get; set; }
 
+    public string? FullName { get; set; }
+
     public DateTime? DateSold { get; set; }
 
     public string? Name { get; set; }
